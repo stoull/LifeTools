@@ -28,7 +28,7 @@ class ProcessIndicate:
         self._stop = True
 
     def start(self):
-        processing_loading_thread = threading.Thread(target=self._loading_progress, daemon=False)
+        processing_loading_thread = threading.Thread(target=self._loading_progress, daemon=True)
         processing_loading_thread.start()
 
 
