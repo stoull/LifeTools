@@ -1,8 +1,6 @@
 import os
 from PIL import Image
 
-# 移除当前文件夹下图片中，包含的所有透明像素
-
 # Absolute path to this script
 scriptdir = os.path.dirname(os.path.abspath(__file__))
 
